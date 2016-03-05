@@ -5,10 +5,12 @@ setup(name='bookry',
       description='Bookry compares book price between Books & Eslite',
       author=[
           'Thomas Lin',
+          'Mei-Yu Chen',
           'Wei-Chih Lin'
       ],
       author_email=[
           'ithomaslin@gmail.com',
+          'meifish.kat@gmail.com',
           'hawkerylin@gmail.com'
       ],
       license='Apache License',

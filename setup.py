@@ -3,8 +3,14 @@ from setuptools import setup, find_packages
 setup(name='bookry',
       version='0.0.1',
       description='Bookry compares book price between Books & Eslite',
-      author='Thomas Lin',
-      author_email='ithomaslin@gmail.com',
+      author=[
+          'Thomas Lin',
+          'Wei-Chih Lin'
+      ],
+      author_email=[
+          'ithomaslin@gmail.com',
+          'hawkerylin@gmail.com'
+      ],
       license='Apache License',
       packages=find_packages(),
       install_requires=[

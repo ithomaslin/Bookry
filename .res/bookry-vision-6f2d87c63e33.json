@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bookry-vision",
+  "private_key_id": "6f2d87c63e33cb1333d5714cc1b535bdb5c4102b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCITkrsE5DWLlV7\nwl1gwziChZUrBFnwHVw1joyBMXE9W9XMuGrdrQwLoA6DSX0ku6PhSeWVE7+iJY7t\nPk32/sbVuWcx/UUHtHD2a6AGWJ8NPA/zapBX9Z3IG2AdVVBXt4BmMWW7yD+C4WrK\nj2wVXQXdyUqs7vfEDJ0NIlC5Jh6qzpTqHtnUixBGpKOSCrjgcZp/RvyznEU23OwN\nRdxuUlWu+7/U18oInFgtTYVQBam7jGL1bYycc8c2KdRBun27/eZzr/6RkHHW2O3r\nObTGv3CDbt/OsuNwYR0xhQM1znZMPw3xhF5YizekBJKl0oBKuCGICu4fJygiBZfC\nQAtMF4ZBAgMBAAECggEAbAMGse6LPn429Tw/PLdWZ2+tlgn7rx/E+xe71YC1iHbm\nhDS7UnCXc/rgpT6t8VbT9WnWiPy+RaJXkT5nD8wzChfCY8WcVw+w2ETO6Vh+qUEo\nLq8KNPmIj5LJ5lS9ttTN5a1NPbHgSjmQo3Vlo8Q0Kt0g1MsFAZExPsArkZxYfubN\nyYdrEKL9nMH50YnCqCxIpbezACh++07GmCHRF81AZI/fJBVLYsWP1flserVGYgba\nys9Uqocg1nXCc9SMMNfFX2ts467tUuWHR082WPas2wLlMrbb+xlKLKTtNNTYIrn2\nDFi39dvoySYdsAOpUL8lkqy3xwBA19kpJLkviOTdhQKBgQDLmVH+3HU8U34/yfLr\nAzUxAUg0CEhqcKGaHWV0t9MXlKcZSreB5VVwl1IjLREhm2lIb9PaaD27sDQKbozd\nkXNi4L1aeOj9rRIAhUkqgGT5lgWiqXWS+gl9cnDBAHzvVOs522rcAvc+3B4FlAyO\nNvhoo1GzLWLVYjROW2snb6qJmwKBgQCrYy5YvkDAjcIyQMwK9bnF9BU6m9d+iS1Q\n6D+s0ga1DklptKj1LhyzZ7zbMp4BShXb70CQlL19NnSRm1e0AVTMAtJ62esOT+03\n4LMdwKmIkkRmc3lkCEWQ8FBTDum8/ql2rpe4fvna36z7JxxqgEXewJlp2q6mOUYQ\nnsOixH3LUwKBgDdMRUD7j7v60Wdx6lB6ZpAQ0ROQzFpcjQfWxB+XbfYRofD0ojLd\nnv8dmmmDbAu8sjPCa7/+YAYCLaBHtmrXfod0kvlnraB4yVLq4JxykvpXDODJNe3d\ni4ZO9uD0yPoYDmuAdN2c0Jp6Ho1VULOvqniBI0ePJDDgo2RE4C2t3pvRAoGADoWT\n2r8cG3SnfLySzWbuu8AnwFSOGNGkvlM/efQ9zz+LpuJA4q1qjyT+EpCiZLeTTJRk\nIxwHRkHD9MZ10vG97p9amEA4s3jAP9jRNHcrpj/GfevQ4FH3GwXRuIft9C6by0uV\n3XMc1pfXP1ycAsYlpW8qUJbP75OwxR2+s970TbMCgYAmzppFQw6y+e9yYnIp1SWL\nZ7w6OaO+jIRhgy/MjFpVgePqF6zx9DM3beE1bULSJDNgx+mEaEDWcaXp2YqU028F\n+zdMxinUV/R+L6v0Uwwv0nXx/UxDJq5IC7T1A5U+aleve4UErrv0B1CGmTOjVpGs\nnOAqKEt7JqiCCQsfP32znQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bookry@bookry-vision.iam.gserviceaccount.com",
+  "client_id": "114567517070070987631",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bookry%40bookry-vision.iam.gserviceaccount.com"
+}

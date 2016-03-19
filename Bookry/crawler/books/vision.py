@@ -1,9 +1,15 @@
 import argparse
 import base64
 import httplib2
+import subprocess
+import os
+
 
 from googleapiclient.discovery import build
 from oauth2client.client import GoogleCredentials
+
+
+BASE_DIR = os.path.dirname(__file__)
 
 
 def main(photo_file):
@@ -39,7 +45,7 @@ def main(photo_file):
         )
         response = service_request.execute()
         text = response['responses'][0]['textAnnotations'][0]['description']
-        print('Found text: %s for %s' % (text, photo_file))
+        print('Found text: %s for %s' % (text.replace(' ', ''), photo_file))
         return 0
 
 if __name__ == '__main__':
@@ -48,4 +54,14 @@ if __name__ == '__main__':
         'image_file', help='The image you\'d like to identify'
     )
     args = parser.parse_args()
+    subprocess.call([
+        'export',
+        'GOOGLE_APPLICATION_CREDENTIALS='+os.path.join(
+            os.getcwd(),
+            '/.res/bookry-vision-6f2d87c63e33.json'
+        )
+    ],
+        shell=True,
+        stdout=subprocess.PIPE
+    )
     main(args.image_file)
